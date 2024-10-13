@@ -15,8 +15,6 @@ const Selector = memo(function Selector({ values }) {
     gap: '10px',
   }
 
-  console.log('b')
-
   return (
     <div style={selectorStyle}>
       {values.map((value) => (
